@@ -1,0 +1,2360 @@
+
+<!DOCTYPE html>
+<html lang="pt-br" class="h-100">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/conveniencia.css" rel="stylesheet">
+	<link  href="css/slider/style.min.css"rel="stylesheet">
+	<title>ECHO BRAVO - Conveniência</title>
+	<link rel="shortcut icon" href="assets/img/favicon.ico" />
+	<script src="scripts/js/jquery-3.2.0.min.js"></script>
+	<script src="scripts/callHeadFooter.js"> </script> 
+</head>
+<body class="fundo">
+	<header id="headerBar"></header>
+	<div id="carouselExampleSlidesOnly" class="carousel" >
+		<div class='o-sliderContainer' id="pbSliderWrap0" style="margin-top:0;">
+			<div class='o-slider' id='pbSlider0'>
+
+				<div class="o-slider--item" data-image="assets/img/bannerBar.jpg">
+					<div class=" o-slider-textWrap">
+						<img class="o-slider-title" src="assets/img/logotipoBar.png" style="width: 200px; height: 100px" /><br>
+						<h1 class="o-slider-title capture" >ECHO BRAVO</h1>
+						<span class="a-divider"></span>
+						<h2 class="o-slider-subTitle capture">Conveniência</h2>
+						<span class="a-divider"></span>
+						<p class="o-slider-paragraph">Veja baixo o nosso cardápio on-line para melhor experiência.</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- MENU -->
+	<h1 class="text-center display-1 texto capture" style="color:#ff8d00"> Cardápio </h1>
+	
+	<div class="row justify-content-md-center " id="myProducts" >
+
+		<div class="col-sm-7">
+			<ul class="nav nav-tabs justify-content-center" role="tablist">
+				<!--<li class="nav-item" role="presentation">
+					<button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Destaque</button>
+				</li>-->
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#bebidas" type="button" role="tab" aria-controls="bebidas" aria-selected="false">Bebidas</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#porcao" type="button" role="tab" aria-controls="porcao" aria-selected="false">Porções</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#cafeteria" type="button" role="tab" aria-controls="cafeteria" aria-selected="false">Cafeteria</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#mercadinho" type="button" role="tab" aria-controls="mercadinho" aria-selected="false">Mercadinho</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#snacks" type="button" role="tab" aria-controls="snacks" aria-selected="false">Snacks</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#drinks" type="button" role="tab" aria-controls="drinks" aria-selected="false">Drinks</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#tabacaria" type="button" role="tab" aria-controls="tabacaria" aria-selected="false">Tabacaria</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link active" id="contact-tab" data-bs-toggle="tab" data-bs-target="#refeicoes" type="button" role="tab" aria-controls="refeicoes" aria-selected="false">Refeições</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#sorvete" type="button" role="tab" aria-controls="sorvete" aria-selected="false">Sorvete</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#acai" type="button" role="tab" aria-controls="acai" aria-selected="false">Açaí</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#outro" type="button" role="tab" aria-controls="outro" aria-selected="false">Outros</button>
+				</li>
+			</ul><br>
+			<input type="text" id="myFilter" class="form-control" onkeyup="myFunction()" placeholder="Procurar no catalogo...">
+			<!--Destaques-->
+			<div class="tab-content" id="myTabContent">
+				<br>
+				<div class="tab-pane fade show" id="home" role="tabpanel" aria-labelledby="home-tab">
+					<div class="row row-cols-2 row-cols-md-3 g-4">
+						<div class="col-sm-2 col-xs-6 mb-3">
+							<div class="card">
+								<img src="assets\images\thumbs\4.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Card title</h5>
+									<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-2 col-xs-6 mb-3">
+							<div class="card">
+								<img src="assets\images\thumbs\4.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Card title</h5>
+									<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-2 col-xs-6 mb-3">
+							<div class="card">
+								<img src="assets\images\thumbs\4.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Card title</h5>
+									<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<!--bebidas-->
+				<div class="tab-pane fade" id="bebidas" role="tabpanel" aria-labelledby="bebidas">
+					
+					<br>
+					<div class="row row-cols-2 row-cols-md-4 g-4 ">
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\kombucha.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Kombucha Joing</h5>
+									<p class="card-text">R$ 15,00.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\redbull.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Red Bull 250ml</h5>
+									<p class="card-text">R$ 10,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\monster.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Energético Monster 473ml</h5>
+									<p class="card-text">R$ 12,00.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\extrap.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Energético Extra Power!</h5>
+									<p class="card-text">R$ 10,00.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\beats313.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Skol Beats GT</h5>
+									<p class="card-text">R$ 10,00.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\beats313.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Skol Beats Senses</h5>
+									<p class="card-text">R$ 9,00.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\sminorff.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Smirnorff 275ml</h5>
+									<p class="card-text">R$ 10,00.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\cabare.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Cabaré Ice 275ml</h5>
+									<p class="card-text">R$ 8,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\chopp.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Chopp Louvada 400ml</h5>
+									<p class="card-text">R$ 12,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\chopp.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Chopp Louvada 330ml</h5>
+									<p class="card-text">R$ 10,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\duplomalte600.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Duplo Malte 600ml</h5>
+									<p class="card-text">R$ 10,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\duplomalte600.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Brahma 600ml</h5>
+									<p class="card-text">R$ 10,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\skol600.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Skol 600ml</h5>
+									<p class="card-text">R$ 10,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\itaipava600.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Itaipava 600ml</h5>
+									<p class="card-text">R$ 10,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\petra600.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Petra 600ml</h5>
+									<p class="card-text">R$ 10,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\stella330.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Stella Artois 330ml</h5>
+									<p class="card-text">R$ 10,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\heineken330.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Heineken 330ml</h5>
+									<p class="card-text">R$ 10,00.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\budweiser330.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Budweiser 330ml</h5>
+									<p class="card-text">R$ 8,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\sol330.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Sol 330ml</h5>
+									<p class="card-text">R$ 8,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\bohemia355.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Bohemia 355ml</h5>
+									<p class="card-text">R$ 8,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\imperio275.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Império 275ml</h5>
+									<p class="card-text">R$ 8,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\caracu350.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Caracu 350ml</h5>
+									<p class="card-text">R$ 5,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\brahmazero.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Brahma zero 350ml</h5>
+									<p class="card-text">R$ 5,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\heinekenzero.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Heineken zero 330ml</h5>
+									<p class="card-text">R$ 10,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\coronita.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Coronita 210ml</h5>
+									<p class="card-text">R$ 6,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\corona330.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Corona 330ml</h5>
+									<p class="card-text">R$ 10,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\spaten.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Spaten 350ml</h5>
+									<p class="card-text">R$ 6,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\heineken250.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Heineken 250ml</h5>
+									<p class="card-text">R$ 5,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\brahma350.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Duplo Malte 350ml</h5>
+									<p class="card-text">R$ 5,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\budweiser269.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Budweiser 269ml </h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\petra269.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Petra 269ml</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\brahma269.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Brahma 269ml</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\skol269.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Skol 269ml</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\itaipava269.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Itaipava 269ml</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\bohemia269.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Bohemia 269ml</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\devassa269.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Devassa 269ml</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\amstel269.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Amstel 269ml</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\original269.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Original 269ml</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\antartica269.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Antarctica 269ml</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\guarana2.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Guaraná Antártica 2L</h5>
+									<p class="card-text">R$ 10,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\coca1.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Coca-cola 1,5L</h5>
+									<p class="card-text">R$ 8,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\coca1.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Coca-cola S/Açucar 1,5L</h5>
+									<p class="card-text">R$ 8,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\kuat.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Kuat 1,5L</h5>
+									<p class="card-text">R$ 8,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\sprite.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Sprite 1,5L</h5>
+									<p class="card-text">R$ 8,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\fanta.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Fanta 1,5L</h5>
+									<p class="card-text">R$ 8,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\coca1.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Coca-cola 1L</h5>
+									<p class="card-text">R$ 6,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\coca310.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Coca-cola 310ml</h5>
+									<p class="card-text">R$ 4,50</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\cocazero310.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Coca-cola S/Açucar 310ml</h5>
+									<p class="card-text">R$ 4,50</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\cocacafe.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Coca-cola Café 220ml</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\fanta310.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Fanta 310ml</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\fantauva310.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Fanta Uva 310ml</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\sprite310.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Sprite 310ml</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\kuat310.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Kuat 310ml</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\pepsi269.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Pepsi 269ml</h5>
+									<p class="card-text">R$ 3,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\antartica269.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Guaraná Antártica 269ml</h5>
+									<p class="card-text">R$ 3,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\pratslar900.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Suco Prats Laranja 900ml</h5>
+									<p class="card-text">R$ 12,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\pratsgoiaba900.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Suco Prats GoiMaç 900ml</h5>
+									<p class="card-text">R$ 10,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\pratslar330.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Suco Prats Laranja 330ml</h5>
+									<p class="card-text">R$ 5,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\pratsgoiaba330.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Suco Prats Goiaba 330ml</h5>
+									<p class="card-text">R$ 5,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\miss.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Suco Prats L A M 330ml</h5>
+									<p class="card-text">R$ 5,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\pratsuva330.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Suco Prats Uva 330ml</h5>
+									<p class="card-text">R$ 6,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\pratsuva330.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Suco Prats Uva 900ml</h5>
+									<p class="card-text">R$ 12,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\kapomorango.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Kapo Morango 200ml</h5>
+									<p class="card-text">R$ 3,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\kapouva.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Suco Kapo Uva 200ml</h5>
+									<p class="card-text">R$ 3,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\agua497.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Água sem gás 497ml</h5>
+									<p class="card-text">R$ 3,50</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\agua497.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Água sem gás 1,5L</h5>
+									<p class="card-text">R$ 6,50</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\agua500.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Água com gás 500ml</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\gatorade.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Gatorade 500ml</h5>
+									<p class="card-text">R$ 6,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\aguacoco.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Água de côco 330ml</h5>
+									<p class="card-text">R$ 6,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\h2o.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">H2O Limoneto 500ml</h5>
+									<p class="card-text">R$ 5,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\h2o.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">H2O limão 500ml</h5>
+									<p class="card-text">R$ 5,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\spritefresh.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Sprite Fresh 510ml</h5>
+									<p class="card-text">R$ 5,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\schweppscitrus.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Schwepps Citrus 310ml</h5>
+									<p class="card-text">R$ 5,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\schwepps.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Schwepps Tonica 310m</h5>
+									<p class="card-text">R$ 5,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\tonica.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Tônica 350ml</h5>
+									<p class="card-text">R$ 5,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\chamate.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Chá mate 300ml</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\nescau200.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Nescau 200ml</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\toddynho.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Toddynho 200ml</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\guaramix200.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Guaramix copo 290ml</h5>
+									<p class="card-text">R$ 5,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\bebidas\guaramix500.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Guaramix Garrafa 500ml</h5>
+									<p class="card-text">R$ 6,00</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--Porções-->
+				
+				<div class="tab-pane fade" id="porcao" role="tabpanel" aria-labelledby="porcao">
+					<div class="row row-cols-2 row-cols-md-3 g-4">
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\porcoes\peixe.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Peixe frito</h5>
+									<p class="card-text">Posta de peixe frita<br>R$ 35,00.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\porcoes\frango.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Frango frito</h5>
+									<p class="card-text">Sobrecoxa de frango frita<br>R$ 30,00.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\porcoes\frangom.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Frago frito. Meia porção</h5>
+									<p class="card-text">Sobrecoxa de frango frita<br>R$ 18,00.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\porcoes\calabresa.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Calabresa</h5>
+									<p class="card-text">R$ 25,00.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\porcoes\calabresam.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Calabresa. Meia porção</h5>
+									<p class="card-text">R$ 15,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\porcoes\batata.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Batata frita</h5>
+									<p class="card-text">Tiras de batata frita.<br>R$ 20,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\porcoes\batatam.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Batata frita. Meia porção</h5>
+									<p class="card-text">Tiras de batata frita.<br>R$ 12,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\porcoes\batata.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Polenta frita</h5>
+									<p class="card-text">Tiras de polenta frita.<br>R$ 20,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\porcoes\batatam.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Polenta frita. Meia porção</h5>
+									<p class="card-text">Tiras de polenta frita.<br>R$ 12,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\porcoes\caldopeixe.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Caldo de peixe</h5>
+									<p class="card-text">R$ 10,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\porcoes\caldofeijao.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Caldo de feijão</h5>
+									<p class="card-text">R$ 10,00</p>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+				<!-- CAFETERIA-->
+				<div class="tab-pane fade" id="cafeteria" role="tabpanel" aria-labelledby="cafeteria">
+					<div class="row row-cols-2 row-cols-md-4 g-4">
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\5.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Pingado 3 Corações 260ml</h5>
+									<p class="card-text">R$ 6,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\6.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Whey 3 Corações 260ml</h5>
+									<p class="card-text">R$ 8,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\7.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Classic 3 Corações 260ml</h5>
+									<p class="card-text">R$ 6,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\8.webp" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Nescau 270ml</h5>
+									<p class="card-text">R$ 6,50</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\9.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Nescafe Smo 270ml</h5>
+									<p class="card-text">R$ 6,50</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\10.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Alpino 260ml</h5>
+									<p class="card-text">R$ 6,50</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\10.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Neston 260ml</h5>
+									<p class="card-text">R$ 6,50</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\11.webp" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Nescau 1l</h5>
+									<p class="card-text">R$ 13,50</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\12.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Expresso Cápsula</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\12.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Expresso Cápsula Duplo</h5>
+									<p class="card-text">R$ 7,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\13.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Café Coado</h5>
+									<p class="card-text">R$ 2,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\13.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Café Coado duplo</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\13.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Café Coado com leite</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\14.webp" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Capuccino</h5>
+									<p class="card-text">R$ 7,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\15.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Leite com chocolate</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\16.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Leite puro</h5>
+									<p class="card-text">R$ 1,50</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\17.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Pão com manteiga</h5>
+									<p class="card-text">R$ 3,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\18.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Misto quente</h5>
+									<p class="card-text">R$ 5,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\18.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Misto quente especial</h5>
+									<p class="card-text">R$ 6,50</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\1.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Chipa</h5>
+									<p class="card-text">1kg - R$ 50,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\2.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Chipa com Goiabada</h5>
+									<p class="card-text">1kg - R$ 50,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\3.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Salgado frito</h5>
+									<p class="card-text">R$ 5,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\4.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Salgado assado</h5>
+									<p class="card-text">R$ 6,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\19.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Biscoito de Queijo</h5>
+									<p class="card-text">1kg - R$ 50,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\cafeteria\20.webp" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Pão francês</h5>
+									<p class="card-text">1kg - R$ 13,99</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- MERCADINHO-->
+				<div class="tab-pane fade" id="mercadinho" role="tabpanel" aria-labelledby="mercadinho">
+					<div class="row row-cols-2 row-cols-md-4 g-4">
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\mercadinho\1.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Manteiga 350g</h5>
+									<p class="card-text">R$ 12,50</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\mercadinho\1.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Manteiga 250g</h5>
+									<p class="card-text">R$ 11,50</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\mercadinho\2.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Margarina 500g</h5>
+									<p class="card-text">R$ 9,50</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\mercadinho\3.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Margarina 250g</h5>
+									<p class="card-text">R$ 5,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\mercadinho\4.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Requijão Qualy</h5>
+									<p class="card-text">R$ 8,50</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--Snacks-->	
+				<div class="tab-pane fade" id="snacks" role="tabpanel" aria-labelledby="snacks">
+					<div class="row row-cols-2 row-cols-md-4 g-4">
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\snacks\1.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Bala Iogurte</h5>
+									<p class="card-text">R$ 0,15</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\snacks\2.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Bala Canela</h5>
+									<p class="card-text">R$ 0,15</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\snacks\3.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Bala Hortelã</h5>
+									<p class="card-text">R$ 0,15</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\snacks\4.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Buballo</h5>
+									<p class="card-text">R$ 0,25</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\snacks\5.webp" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Pirulito</h5>
+									<p class="card-text">R$ 0,25</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\snacks\6.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Chiclete Adams</h5>
+									<p class="card-text">R$ 0,35</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\snacks\7.webp" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Dori Goma</h5>
+									<p class="card-text">R$ 1,50</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\snacks\8.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Drops Mentos</h5>
+									<p class="card-text">R$ 2,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\snacks\9.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Drops Halls</h5>
+									<p class="card-text">R$ 2,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\snacks\10.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Chiclete Trident</h5>
+									<p class="card-text">R$ 2,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\snacks\11.webp" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Pastilha Tic-tac</h5>
+									<p class="card-text">R$ 3,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\snacks\12.webp" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Amendoim 27g</h5>
+									<p class="card-text">R$ 2,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\snacks\12.webp" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Amendoim Temperado 50g</h5>
+									<p class="card-text">R$ 5,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\snacks\13.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Doce Amendoim 40g</h5>
+									<p class="card-text">R$ 2,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\snacks\14.webp" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Cereal Barra 22g</h5>
+									<p class="card-text">R$ 3,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\snacks\15.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Confeti 30g</h5>
+									<p class="card-text">R$ 4,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\snacks\15.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Mini disquete</h5>
+									<p class="card-text">R$ 2,00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img src="assets\img\cardapio\snacks\16.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Dori 70g</h5>
+									<p class="card-text">R$ 4,00/p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\17.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Paçoca Yoki 22g</h5>
+										<p class="card-text">R$ 2,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\18.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Pé de moleque Yoki 17g</h5>
+										<p class="card-text">R$ 2,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\19.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Kinder Ovo</h5>
+										<p class="card-text">R$ 10,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\20.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Chocolate Laka 165g</h5>
+										<p class="card-text">R$ 12,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\21.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Chocolate Laka 90g</h5>
+										<p class="card-text">R$ 7,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\22.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Chocolate Laka 20g</h5>
+										<p class="card-text">R$ 3,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\23.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Biscoito Passatempo</h5>
+										<p class="card-text">R$ 3,50</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\24.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Waffer Toddy</h5>
+										<p class="card-text">R$ 3,75</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\25.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Bis</h5>
+										<p class="card-text">R$ 3,75</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\26.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Biscoito Oreo</h5>
+										<p class="card-text">R$ 4,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\27.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Pringles</h5>
+										<p class="card-text">R$ 15,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\28.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Cheetos G</h5>
+										<p class="card-text">R$ 15,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\29.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Baconzitos G</h5>
+										<p class="card-text">R$ 15,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\30.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Cebolittos G</h5>
+										<p class="card-text">R$ 15,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\31.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Fandangos G</h5>
+										<p class="card-text">R$ 15,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\32.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Ruffles G</h5>
+										<p class="card-text">R$ 15,00</p>
+									</div>
+								</div>
+							</div><div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\33.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Bacon G</h5>
+										<p class="card-text">R$ 12,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\34.png" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Onion Cebola G </h5>
+										<p class="card-text">R$ 15,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\55.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Sensações </h5>
+										<p class="card-text">R$ 7,50</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\35.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Ruffles M</h5>
+										<p class="card-text">R$ 6,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\36.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Fandangos M</h5>
+										<p class="card-text">R$ 6,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\37.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Cheetos M</h5>
+										<p class="card-text">R$ 5,00</p>
+									</div>
+								</div>
+							</div><div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\38.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Banana Chips 30g</h5>
+										<p class="card-text">R$ 3,50</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\39.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Pururuca 50g</h5>
+										<p class="card-text">R$ 5,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\40.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Salgadinho Skinny</h5>
+										<p class="card-text">R$ 4,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\41.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Pipoca doce Bebela</h5>
+										<p class="card-text">R$ 3,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\42.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Salgadinho Bebela</h5>
+										<p class="card-text">R$ 2,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\43.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Salgadinho Torcida</h5>
+										<p class="card-text">R$ 3,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\47.png" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Brigadeiro</h5>
+										<p class="card-text">R$ 2,50</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\48.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Cup Cake</h5>
+										<p class="card-text">R$ 3,50</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\49.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Bom-bom Trufa</h5>
+										<p class="card-text">R$ 5,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\50.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Pavê</h5>
+										<p class="card-text">R$ 5,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\51.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Donuts</h5>
+										<p class="card-text">R$ 5,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\56.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Pudim</h5>
+										<p class="card-text">R$ 5,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\57.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Bomba (doce)</h5>
+										<p class="card-text">R$ 6,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\52.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Pão de mel</h5>
+										<p class="card-text">R$ 7,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\58.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Palha Italiana</h5>
+										<p class="card-text">R$ 7,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\59.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Brownie</h5>
+										<p class="card-text">R$ 8,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\snacks\60.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Kit Brigadeiro</h5>
+										<p class="card-text">R$ 15,00</p>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+
+					<!--Drinks-->	
+					<div class="tab-pane fade" id="drinks" role="tabpanel" aria-labelledby="drinks">
+						<div class="row row-cols-2 row-cols-md-4 g-4">
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\drinks\1.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Cachaça Cabaré</h5>
+										<p class="card-text">R$ 5,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\drinks\2.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Conhaque Presidente</h5>
+										<p class="card-text">R$ 5,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\drinks\3.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Rum Montilla</h5>
+										<p class="card-text">R$ 5,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\drinks\4.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Bitter Campari</h5>
+										<p class="card-text">R$ 5,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\drinks\5.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Vermouth Martini</h5>
+										<p class="card-text">R$ 5,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\drinks\6.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Vodka Smirnoff</h5>
+										<p class="card-text">R$ 5,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\drinks\7.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Gin Seagers</h5>
+										<p class="card-text">R$ 5,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\drinks\8.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Steinhager Kosten</h5>
+										<p class="card-text">R$ 5,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\drinks\9.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Sake Jun Daiti</h5>
+										<p class="card-text">R$ 5,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\drinks\10.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Kanjinjin</h5>
+										<p class="card-text">R$ 8,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\drinks\11.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Licor Amarula</h5>
+										<p class="card-text">R$ 15,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\drinks\12.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Whisky Jack</h5>
+										<p class="card-text">R$ 15,00</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><br>
+
+					<!--Tabacaria-->	
+					<div class="tab-pane fade" id="tabacaria" role="tabpanel" aria-labelledby="tabacaria">
+						<div class="row row-cols-2 row-cols-md-4 g-4">
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\tabacaria\1.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Dun Hill Red</h5>
+										<p class="card-text">R$ 12,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\tabacaria\2.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Marlboro Gold</h5>
+										<p class="card-text">R$ 12,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\tabacaria\3.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Marlboro Red</h5>
+										<p class="card-text">R$ 12,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\tabacaria\4.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Lucky Strike</h5>
+										<p class="card-text">R$ 12,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\tabacaria\5.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Chesterfield Blue</h5>
+										<p class="card-text">R$ 6,50</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\tabacaria\6.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Chesterfield Label</h5>
+										<p class="card-text">R$ 6,50</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\tabacaria\7.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Chesterfield Terras Blue</h5>
+										<p class="card-text">R$ 5,50</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\tabacaria\8.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Chesterfield Terras Red</h5>
+										<p class="card-text">R$ 5,50</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\tabacaria\9.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Kent Red</h5>
+										<p class="card-text">R$ 11,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\tabacaria\10.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Kent Blue</h5>
+										<p class="card-text">R$ 11,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\tabacaria\11.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Eity Blue</h5>
+										<p class="card-text">R$ 5,50</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\tabacaria\12.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Gift</h5>
+										<p class="card-text">R$ 5,50</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\tabacaria\13.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Outback</h5>
+										<p class="card-text">R$ 5,50</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\tabacaria\14.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Rothmans Blue</h5>
+										<p class="card-text">R$ 5,50</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\tabacaria\15.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Isqueiro</h5>
+										<p class="card-text">R$ 5,50</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\tabacaria\16.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Fósforo</h5>
+										<p class="card-text">R$ 2,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\tabacaria\17.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Baralho Copag</h5>
+										<p class="card-text">R$ 15,00</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div><br>
+
+
+					<!--sorvete-->
+					<div class="tab-pane fade" id="sorvete" role="tabpanel" aria-labelledby="sorvete">
+						<div class="row row-cols-2 row-cols-md-3 g-4">
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\sorvete\1.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Magnum Classico</h5>
+										<p class="card-text">R$ 12,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\sorvete\2.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Magnum Branco</h5>
+										<p class="card-text">R$ 12,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\sorvete\3.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Eskibon Mini</h5>
+										<p class="card-text">R$ 12,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\sorvete\4.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Corneto Crocante</h5>
+										<p class="card-text">R$ 8,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\sorvete\5.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Corneto MM</h5>
+										<p class="card-text">R$ 10,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\sorvete\6.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Frutilly Morango</h5>
+										<p class="card-text">R$ 4,50</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\sorvete\7.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Fruttare Coco</h5>
+										<p class="card-text">R$ 5,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\sorvete\8.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Fruttare Limão</h5>
+										<p class="card-text">R$ 4,50</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\sorvete\9.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Fruttare Uva</h5>
+										<p class="card-text">R$ 4,50</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\sorvete\10.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Kibbon Tablito</h5>
+										<p class="card-text">R$ 8,00</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\sorvete\11.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Kibon Brigadeiro</h5>
+										<p class="card-text">R$ 7,50</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\sorvete\12.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Kibon Chicabon</h5>
+										<p class="card-text">R$ 5,50</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\sorvete\13.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Morango ao leite</h5>
+										<p class="card-text">R$ 3,50</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\sorvete\14.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Kibon Paçoca</h5>
+										<p class="card-text">R$ 3,50</p>
+									</div>
+								</div>
+							</div>	
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\sorvete\15.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Kibon 4 em 1 - 2l</h5>
+										<p class="card-text">R$ 35,00</p>
+									</div>
+								</div>
+							</div>	
+						</div><br>
+					</div>
+
+					<!--Açaí-->
+					<div class="tab-pane fade" id="acai" role="tabpanel" aria-labelledby="acai">
+						
+						<div class="row row-cols-2 row-cols-md-3 g-4">
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\acai\1.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Açaí 330ml</h5>
+										<p class="card-text">R$ 10,00</p>
+									</div>
+									<div class="card-footer text-muted">
+										3 acompanhamentos inclusos dentro do copo.
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\acai\1.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Açaí 550ml</h5>
+										<p class="card-text">R$ 14,00</p>
+									</div>
+									<div class="card-footer text-muted">
+										3 acompanhamentos inclusos dentro do copo.
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\acai\1.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Açaí 770ml</h5>
+										<p class="card-text">R$ 18,00</p>
+									</div>
+									<div class="card-footer text-muted">
+										3 acompanhamentos inclusos dentro do copo.
+									</div>
+								</div>
+							</div>
+
+						</div><br>
+						<div class="alert alert-success" role="alert">
+							Para ver as todos os adicionais <a style="text-decoration: underline; color: blue;" href="assets\img\cardapio\acai\cardapio_acai.jpg" target="_blank">clique aqui!</a><br>		
+						</div>
+					</div>
+
+					<!--Açaí-->
+					<div class="tab-pane fade" id="outro" role="tabpanel" aria-labelledby="outro">
+						
+						<div class="row row-cols-2 row-cols-md-3 g-4">
+							<div class="col">
+								<div class="card">
+									<img src="assets\img\cardapio\outro\1.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Sinuca (ficha)</h5>
+										<p class="card-text">R$ 1,50</p>
+									</div>
+								</div>
+							</div>
+						</div><br>
+					</div>
+
+					<!--Refeições-->
+					<div class="tab-pane fade show active" id="refeicoes" role="tabpanel" aria-labelledby="refeicoes">
+						<div class="alert alert-success" role="alert">
+							Almoço de Segunda-feira a Domingo<br>Prato Executivo: R$ 15,00.<br>Marmita G: R$ 15,00.<br>Marmita M: R$ 12,00.<br>Buffet Livre: R$ 20,00.		
+						</div>
+						<div class="alert alert-danger" role="alert">
+							<p>O cardápio de refeições é atualizado semanalmente no Insta! Siga para acompanhar</p>
+							<button type="button" class="btn btn-sm btn-primary btn-pink">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+									<path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+								</svg>
+								<a class="text-white" href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTE3NzM4ODM1MTMxMzc4?story_media_id=2728550575671063236_35924260469&utm_medium=share_sheet" target="_blank">Instagram</a>
+							</button>
+						</div>
+						<hr class="featurette-divider"/>
+						<h1 class="text-center display-6 texto capture" style="color:#ff8d00"> PRATOS DA CASA </h1>
+						<div class="card mb-3">
+							<img src="assets/img/cardapio/cozido.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Cozidão Cuiabano</h5>
+								<p class="card-text">Farofa de Bacon, Salada, Arroz e Feijão. <br>Opcionais:<br>Bife acebolado, Filé de frango, Bisteca suína.</p>
+								<p class="card-text"><small class="text-muted">Última atualização Dez 2021.</small></p>
+							</div>
+						</div>
+						<div class="card mb-3">
+							<img src="assets/img/cardapio/peixeFrito.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Peixe Frito</h5>
+								<p class="card-text">Pirão, Mandioca cozida, Farofa de alho, Arroz e Feijão <br>Opcionais:<br>Bife acebolado, Filé de frango, Bisteca suína.</p>
+								<p class="card-text"><small class="text-muted">Última atualização Dez 2021.</small></p>
+							</div>
+						</div>
+						<div class="card mb-3">
+							<img src="assets/img/cardapio/estrogonofe.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Estrogonofe</h5>
+								<p class="card-text">Batata palha, salada, Macarrão alho e óleo, Arroz e Feijão <br>Opcionais:<br>Bife acebolado, Filé de frango, Bisteca suína.</p>
+								<p class="card-text"><small class="text-muted">Última atualização Dez 2021.</small></p>
+							</div>
+						</div>
+						<div class="card mb-3">
+							<img src="assets/img/cardapio/galinhada.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Galinhada</h5>
+								<p class="card-text">Galinha com Arroz, Costelinha de Porco, Salada, Farofa de banana. <br>Opcionais:<br>Bife acebolado, Filé de frango, Bisteca suína.</p>
+								<p class="card-text"><small class="text-muted">Última atualização Dez 2021.</small></p>
+							</div>
+						</div>
+						<div class="card mb-3">
+							<img src="assets/img/cardapio/mariaIsabel.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Maria Isabel</h5>
+								<p class="card-text">Farofa de banana, Salada, Maionese, Arroz e Feijão <br>Opcionais:<br>Bife acebolado, Filé de frango, Bisteca suína.</p>
+								<p class="card-text"><small class="text-muted">Última atualização Dez 2021.</small></p>
+							</div>
+						</div>
+						<div class="card mb-3">
+							<img src="assets/img/cardapio/feijoada.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Feijoada Completa</h5>
+								<p class="card-text">Farofa de torresmo, Couve no alho, Abobora refogada, Arroz. <br>Opcionais:<br>Bife acebolado, Filé de frango, Bisteca suína.</p>
+								<p class="card-text"><small class="text-muted">Última atualização Dez 2021.</small></p>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<script src='assets/bootstrap/js/bootstrap.bundle.min.js'></script>
+			<script src='scripts/js/hammer.min.js'></script>
+			<script src='scripts/js/slider.js'></script>
+			<script>
+				$('#pbSlider0').pbTouchSlider({
+					slider_Wrap: '#pbSliderWrap0',
+					slider_Item_Width : 100,
+					slider_Threshold: 10,
+					slider_Speed:300,
+					slider_Ease:'ease-out',
+					slider_Drag : false,
+					slider_Arrows: {
+						enabled : false
+					},
+					slider_Dots: {
+						class :'.o-slider-pagination',
+						enabled : false,
+						preview : false
+					},
+					slider_Breakpoints: {
+						default: {
+							height: 500
+						},
+						tablet: {
+							height: 350,
+							media: 1024
+						},
+						smartphone: {
+							height: 250,
+							media: 768
+						}
+					}
+				});
+
+			</script>
+			<script type="text/javascript">
+				function myFunction() {
+					var input, filter, cards, cardContainer, title, i;
+					input = document.getElementById("myFilter");
+					filter = input.value.toUpperCase();
+
+					cardContainer = document.getElementById("myProducts");
+					cards = cardContainer.getElementsByClassName("col");
+					for (i = 0; i < cards.length; i++) {
+						title = cards[i].querySelector(".card-title");
+						if (title.innerText.toUpperCase().indexOf(filter) > -1) {
+							cards[i].classList.remove("d-none");		
+							cards[i].style.display = "";
+
+
+						} else {
+							cards[i].classList.add("d-none");
+						}
+					}
+				}
+			</script>
+			<footer id="footer"class=" text-center text-white" style="background-color:#000111;"></footer>
+		</body>
+		</html>

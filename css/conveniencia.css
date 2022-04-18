@@ -1,0 +1,60 @@
+@font-face {
+font-family: "Capture";
+src: url("../assets/font/Capture_it.ttf") format('truetype');
+}
+
+a{
+  text-decoration: none;
+}
+.email{
+  text-decoration: underline;
+}
+.nav-tabs .nav-item .nav-link {
+  color: #ff8d00;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+  color: #0080FF;
+}
+.capture{
+  font-family: "Capture" ;
+}
+
+.card{
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: stretch;
+  
+  background-color: #343a40;
+  color: #fff;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.card:hover {
+
+    transform: scale(1.05);
+}
+
+
+.fundo{
+  background-image: url("../assets/img/bg2.png");
+}
+.btn-pink {
+  color: #fff;
+  background-color: #ff6ed9;
+  border-color: #ff6ed9;
+}
+.btn-pink:hover {
+  color: #fff;
+  background-color: #fd3bca;
+  border-color: #fd3bca;
+}
+.featurette-divider{
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 2px solid #fff;
+    margin: 1em 0; 
+    padding: 0;
+}
